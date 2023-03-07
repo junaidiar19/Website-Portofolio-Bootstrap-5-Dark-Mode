@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Junaidi AR</title>
+    <title>Jonathan Doe</title>
+
+    <link rel="shortcut icon" href="img/veldeva.png" type="image/x-icon">
+
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="css/custom.css">
 
     <!-- Icons -->
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
@@ -20,16 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home">Home</a>
+              <a class="nav-link fw-medium active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link fw-medium" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portofolio">Portofolio</a>
+              <a class="nav-link fw-medium" href="#portofolio">Portofolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link fw-medium" href="#skills">Skills</a>
             </li>
           </ul>
         </div>
@@ -38,11 +41,11 @@
 
     <div class="main">
 
-      <div class="bg-light" id="home">
-        <div class="container pt-5">
+      <section class="bg-light" id="home">
+        <div class="container pt-5 pb-0 py-lg-5">
           <div class="row align-items-center mt-5">
-            <div class="col-md-7 pt-5">
-              <ul class="mb-4 list-inline d-flex gap-2 social-button">
+            <div class="col-md-7 pt-md-5 text-center text-md-start">
+              <ul class="mb-4 list-inline d-flex gap-2 social-button justify-content-center justify-content-md-start">
                 <li>
                   <a href=""><i class="bi bi-facebook"></i></a>
                 </li>
@@ -56,20 +59,20 @@
                   <a href=""><i class="bi bi-github"></i></a>
                 </li>
               </ul>
-              <h1 class="fw-bold mb-4" style="font-size: 3rem;">I am <span class="text-success">Jonathan Doe</span></h1>
+              <h1 class="fw-bold mb-4" style="font-size: 3rem;">I am <br> <span class="text-success">Jonathan Doe</span></h1>
               <p class="fs-4 mb-4">i'm Jonathan, professional web developer with long time experience in this field​</p>
   
               <a href="#portofolio" class="btn btn-outline-success rounded-pill py-2 px-4 border-2 fw-semibold fs-6">My Portofolio</a>
             </div>
-            <div class="offset-md-1 col-md-4">
-              <img src="https://themebing.com/wp/amike/wp-content/uploads/2019/12/man-01.png" class="img-fluid" alt="">
+            <div class="col-md-5 offset-lg-1 col-lg-4 d-none d-md-block">
+              <img src="img/man-01.png" class="img-fluid" alt="">
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="bg-white py-5" id="about">
-        <div class="container py-5">
+      <section class="bg-white py-5" id="about">
+        <div class="container py-lg-5">
           <div class="row justify-content-center mb-5">
             <div class="col-lg-6 text-center">
               <h1 class="fw-semibold mb-3">About Me</h1>
@@ -79,11 +82,11 @@
           </div>
 
           <div class="row align-items-center">
-            <div class="col-md-4">
-              <img src="https://themebing.com/wp/amike/wp-content/uploads/elementor/thumbs/me-01-oiscg5p6xhb0wn2ew54ye53hi21rk30p2dh5pmlw5c.png" class="img-fluid" alt="">
+            <div class="col-md-4 text-center text-md-left mb-4 mb-md-0">
+              <img src="img/man-02.png" class="img-fluid" alt="">
             </div>
             <div class="col-md-7 offset-md-1">
-              <h3 class="fw-bold mb-3">Hi There</h3>
+              <h3 class="fw-bold mb-3 text-success">Hi There</h3>
               <p>In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis</p>
               <p>nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis porta sem turpis quis leo. Nulla in feugiat elit</p>
 
@@ -110,10 +113,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="bg-light py-5" id="portofolio">
-        <div class="container py-5">
+      <section class="bg-light py-5" id="portofolio">
+        <div class="container py-lg-5">
           <div class="row justify-content-center mb-5">
             <div class="col-lg-6 text-center">
               <h1 class="fw-semibold mb-3">My Portofolio</h1>
@@ -123,14 +126,14 @@
           </div>
 
           <div class="row">
-            <div class="col-md-3">
-              <div class="card border-0 rounded-3 overflow-hidden shadow-sm">
-                <img src="https://www.codescandy.com/geeks-bootstrap-5/assets/images/course/course-angular.jpg" class="img-fluid" alt="">
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 rounded-3 overflow-hidden shadow-sm mb-4">
+                <img src="img/css.jpg" class="img-fluid" alt="">
                 <div class="card-body">
                   <div class="mb-2">
-                    <span class="badge rounded-pill text-success border border-success fw-normal">Javascript</span>
-                    <span class="badge rounded-pill text-success border border-success fw-normal">MySQL</span>
-                    <span class="badge rounded-pill text-success border border-success fw-normal">Laravel</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">HTML</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">CSS</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">JS</span>
                   </div>
                   <h6 class="fw-semibold lh-base">Online Learning Platform for Veldeva University</h6>
 
@@ -138,14 +141,14 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card border-0 rounded-3 overflow-hidden shadow-sm">
-                <img src="https://www.codescandy.com/geeks-bootstrap-5/assets/images/course/course-python.jpg" class="img-fluid" alt="">
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 rounded-3 overflow-hidden shadow-sm mb-4">
+                <img src="img/python.jpg" class="img-fluid" alt="">
                 <div class="card-body">
                   <div class="mb-2">
-                    <span class="badge rounded-pill text-success border border-success fw-normal">Javascript</span>
-                    <span class="badge rounded-pill text-success border border-success fw-normal">MySQL</span>
-                    <span class="badge rounded-pill text-success border border-success fw-normal">Laravel</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">Python</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">AI</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">Data Science</span>
                   </div>
                   <h6 class="fw-semibold lh-base">Online Learning Platform for Veldeva University</h6>
 
@@ -153,14 +156,14 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card border-0 rounded-3 overflow-hidden shadow-sm">
-                <img src="https://www.codescandy.com/geeks-bootstrap-5/assets/images/course/course-react.jpg" class="img-fluid" alt="">
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 rounded-3 overflow-hidden shadow-sm mb-4">
+                <img src="img/react.jpg" class="img-fluid" alt="">
                 <div class="card-body">
                   <div class="mb-2">
                     <span class="badge rounded-pill text-success border border-success fw-normal">Javascript</span>
-                    <span class="badge rounded-pill text-success border border-success fw-normal">MySQL</span>
-                    <span class="badge rounded-pill text-success border border-success fw-normal">Laravel</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">React</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">Next</span>
                   </div>
                   <h6 class="fw-semibold lh-base">Online Learning Platform for Veldeva University</h6>
 
@@ -168,14 +171,14 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card border-0 rounded-3 overflow-hidden shadow-sm">
-                <img src="https://www.codescandy.com/geeks-bootstrap-5/assets/images/course/course-graphql.jpg" class="img-fluid" alt="">
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 rounded-3 overflow-hidden shadow-sm mb-4">
+                <img src="img/wordpress.jpg" class="img-fluid" alt="">
                 <div class="card-body">
                   <div class="mb-2">
-                    <span class="badge rounded-pill text-success border border-success fw-normal">Javascript</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">Wordpress</span>
                     <span class="badge rounded-pill text-success border border-success fw-normal">MySQL</span>
-                    <span class="badge rounded-pill text-success border border-success fw-normal">Laravel</span>
+                    <span class="badge rounded-pill text-success border border-success fw-normal">PHP</span>
                   </div>
                   <h6 class="fw-semibold lh-base">Online Learning Platform for Veldeva University</h6>
 
@@ -185,18 +188,20 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="bg-white py-5" id="skills">
-        <div class="container py-5">
+      <section class="bg-white py-5" id="skills">
+        <div class="container py-lg-5">
           <div class="row align-items-center">
-            <div class="col-md-5">
+            <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
               <p class="fw-semibold text-success">I'M EXPERT ON</p>
               <h1 class="fw-bold mb-3" style="font-size: 4rem;">Let's Work Together</h1>
               <p class="mb-4">Phasellus accumsan scelerisque dolor, quis mattis justo bibendum non. Nulla sollicitudin turpis in enim elementum varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
-              <a href="" class="btn btn-outline-success rounded-pill py-2 px-4 border-2 fw-semibold fs-6">Hire Me Now</a>
+              <div class="d-grid d-md-flex">
+                <a href="" class="btn btn-outline-success rounded-pill py-2 px-4 border-2 fw-semibold fs-6">Hire Me Now</a>
+              </div>
             </div>
-            <div class="col-md-6 offset-md-1">
+            <div class="col-md-6 col-lg-6 offset-lg-1">
               <div class="d-grid gap-3">
                 <div>
                   <p class="fw-semibold mb-2">Codeigniter</p>
@@ -255,7 +260,7 @@
           </div>
           
         </div>
-      </div>
+      </section>
 
       <div class="footer bg-white">
         <div class="border-top py-4">
@@ -267,5 +272,32 @@
     </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      let section = document.querySelectorAll('section');
+      let lists = document.querySelectorAll('.navbar-nav .nav-link');
+      function activeLink(navLink) {
+          lists.forEach((item) => item.classList.remove('active'));
+          navLink.classList.add('active');
+      }
+      lists.forEach((item) =>
+          item.addEventListener('click', function(){
+              activeLink(this);
+          }));
+
+      window.onscroll = () => {
+          section.forEach(sec => {
+              let top = window.scrollY;
+              let offset = sec.offsetTop - 60;
+              let height = sec.offsetHeight;
+              let id = sec.getAttribute('id');
+
+              if (top >= offset && top < offset + height) {
+                  const target = document.querySelector(`[href='#${id}']`);
+                  activeLink(target);
+              }
+          })
+      };
+    </script>
   </body>
 </html>

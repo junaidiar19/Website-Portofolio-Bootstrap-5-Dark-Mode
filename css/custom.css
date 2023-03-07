@@ -4,6 +4,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.navbar-nav .nav-link.active {
+  color: var(--bs-success);
+}
+
 .spacer {
   height: 4px;
   background-color: var(--bs-success);
