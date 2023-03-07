@@ -1,3 +1,32 @@
-[data-bs-theme=dark] {
-  /* color: var(--bs-white) !important; */
+[data-bs-theme=dark] .navbar {
+  background-color: var(--bs-body-bg) !important;
+  border-bottom: 1px solid var(--bs-gray-800) !important;
+}
+
+[data-bs-theme=dark] #home {
+  background-color: var(--bs-body-bg) !important;
+}
+
+[data-bs-theme=dark] #about {
+  background-color: var(--bs-gray-800) !important;
+}
+
+[data-bs-theme=dark] #about a {
+  color: var(--bs-body-color) !important;
+}
+
+[data-bs-theme=dark] #portofolio {
+  background-color: var(--bs-gray-800) !important;
+}
+
+[data-bs-theme=dark] #skills {
+  background-color: var(--bs-body-bg) !important;
+}
+
+[data-bs-theme=dark] .footer {
+  background-color: var(--bs-body-bg) !important;
+}
+
+[data-bs-theme=dark] .footer.border-top {
+  border-top: 1px solid var(--bs-gray-800) !important;
 }
